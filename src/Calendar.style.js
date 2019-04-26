@@ -16,7 +16,7 @@ export default StyleSheet.create({
   },
   calendarDates: {
     flex: 1,
-    flexDirection: "row",
+    flexDirection: "row-reverse",
     justifyContent: "center",
     alignItems: "center"
   },
