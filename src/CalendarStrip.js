@@ -582,6 +582,7 @@ class CalendarStrip extends Component {
           { backgroundColor: this.props.calendarColor },
           this.props.style
         ]}
+        className={'strip-calendar-revert-hack'}
       >
         <View
           style={[this.props.innerStyle, { height: this.state.height }]}

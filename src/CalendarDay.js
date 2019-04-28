@@ -200,6 +200,7 @@ class CalendarDay extends Component {
         onPress={this.props.onDateSelected.bind(this, this.props.date)}
       >
         <View
+          className={'strip-calendar-day-hack'}
           key={this.props.date}
           style={[
             styles.dateContainer,
